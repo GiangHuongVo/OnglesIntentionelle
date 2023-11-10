@@ -51,10 +51,14 @@
 @media (max-width: 768px) {
   .tabletSize {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
   .secondSection {
+    width: 100%;
+  }
+
+  .artificialFirst {
     width: 100%;
   }
   
