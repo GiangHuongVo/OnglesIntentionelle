@@ -48,3 +48,14 @@
 }
 
 /*Calendar*/
+@media (max-width: 768px) {
+  .tabletSize {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondSection {
+    width: 100%;
+  }
+  
+}
